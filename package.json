@@ -1,0 +1,34 @@
+{
+  "name": "swedensimulator",
+  "version": "1.0.0",
+  "description": "Experience Sweden through this virtual reality simulation",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-util": "^3.0.6"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushmatrix/swedensimulator.git"
+  },
+  "keywords": [
+    "sweden",
+    "simulator",
+    "vr"
+  ],
+  "author": "Daniel Beauchamp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushmatrix/swedensimulator/issues"
+  },
+  "homepage": "https://github.com/pushmatrix/swedensimulator#readme"
+}

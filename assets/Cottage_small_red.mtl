@@ -1,0 +1,27 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2006 Google, Inc.
+
+newmtl Cottage_small_red
+Ka 0.000000 0.000000 0.000000
+Kd 0.247059 0.184314 0.172549
+Ks 0.330000 0.330000 0.330000
+map_Kd Cottage_small_red/Cottage_small_red.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Chimney
+Ka 0.000000 0.000000 0.000000
+Kd 0.325490 0.250980 0.203922
+Ks 0.330000 0.330000 0.330000
+map_Kd Cottage_small_red/Chimney.jpg
+
+newmtl Asphalt_Old
+Ka 0.000000 0.000000 0.000000
+Kd 0.607843 0.584314 0.564706
+Ks 0.330000 0.330000 0.330000
+map_Kd Cottage_small_red/Asphalt_Old.jpg
+

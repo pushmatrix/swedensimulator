@@ -1,0 +1,350 @@
+{
+    "metadata": {
+        "generator": "io_three",
+        "type": "Object",
+        "sourceFile": "road.blend",
+        "version": 4.3
+    },
+    "textures": [{
+        "repeat": [1,1],
+        "type": "Geometry",
+        "mapping": "UVMapping",
+        "anisotropy": 1,
+        "wrap": ["RepeatWrapping","RepeatWrapping"],
+        "name": "Texture.003",
+        "magFilter": "LinearFilter",
+        "uuid": "48C14598-01D4-3718-93D6-B4C4514EC356",
+        "image": "665B2403-C570-36A2-9662-DF93B65B0180",
+        "minFilter": "LinearMipMapLinearFilter"
+    },{
+        "repeat": [1,1],
+        "type": "Geometry",
+        "mapping": "UVMapping",
+        "anisotropy": 1,
+        "wrap": ["RepeatWrapping","RepeatWrapping"],
+        "name": "Texture.001",
+        "magFilter": "NearestFilter",
+        "uuid": "8EAF7222-7ECA-3D90-AD44-D925CDE09994",
+        "image": "E65149D7-9D88-3195-94EB-5C03B11E5E49",
+        "minFilter": "NearestFilter"
+    },{
+        "repeat": [1,1],
+        "type": "Geometry",
+        "mapping": "UVMapping",
+        "anisotropy": 1,
+        "wrap": ["RepeatWrapping","RepeatWrapping"],
+        "name": "Texture.002",
+        "magFilter": "LinearFilter",
+        "uuid": "83B16BEB-7B24-3F9C-8313-E4B8770E868B",
+        "image": "D5562A2E-8643-300D-A07B-51504698DB93",
+        "minFilter": "LinearMipMapLinearFilter"
+    }],
+    "materials": [{
+        "type": "MeshPhongMaterial",
+        "color": 10724259,
+        "emissive": 0,
+        "name": "Material.000",
+        "uuid": "A0EB5124-69F2-301A-AFB0-887934185B26",
+        "ambient": 10724259,
+        "vertexColors": false,
+        "depthTest": true,
+        "specular": 8355711,
+        "map": "48C14598-01D4-3718-93D6-B4C4514EC356",
+        "depthWrite": true,
+        "blending": "NormalBlending",
+        "shininess": 50
+    },{
+        "map": "8EAF7222-7ECA-3D90-AD44-D925CDE09994",
+        "type": "MeshLambertMaterial",
+        "color": 7500402,
+        "depthTest": true,
+        "vertexColors": false,
+        "emissive": 4342338,
+        "name": "Material.001",
+        "depthWrite": true,
+        "blending": "NormalBlending",
+        "uuid": "109C8DEC-623D-3F38-8AFD-395BEC6741C8",
+        "ambient": 7500402
+    },{
+        "map": "83B16BEB-7B24-3F9C-8313-E4B8770E868B",
+        "type": "MeshLambertMaterial",
+        "color": 11053224,
+        "depthTest": true,
+        "vertexColors": false,
+        "emissive": 7039851,
+        "name": "Material.002",
+        "depthWrite": true,
+        "blending": "NormalBlending",
+        "uuid": "9D8A2545-F1EB-3251-B63F-BA16B4AD0604",
+        "ambient": 11053224
+    }],
+    "object": {
+        "type": "Scene",
+        "children": [{
+            "type": "Mesh",
+            "name": "Plane.000",
+            "uuid": "31DC1994-4C2D-37E9-85EB-1F8A936AB096",
+            "matrix": [-1e-06,-16.9541,0,0,1.4e-05,-0,-90,0,-10.9403,1e-06,-2e-06,0,-12.2143,20.1927,0,1],
+            "visible": true,
+            "material": "A0EB5124-69F2-301A-AFB0-887934185B26",
+            "castShadow": true,
+            "receiveShadow": true,
+            "geometry": "FADA8082-65ED-3361-AA7E-B8D060A1673B"
+        },{
+            "type": "Mesh",
+            "name": "Plane.001",
+            "uuid": "66205067-0F90-3828-854D-B862B8DDED90",
+            "matrix": [-1e-06,-16.9541,0,0,0,0,90,0,10.9403,-1e-06,0,0,12.2293,20.1927,0,1],
+            "visible": true,
+            "material": "A0EB5124-69F2-301A-AFB0-887934185B26",
+            "castShadow": true,
+            "receiveShadow": true,
+            "geometry": "46B30E9C-2A36-3EE8-A775-3732195A5E18"
+        },{
+            "type": "Mesh",
+            "name": "Sidewalk.000",
+            "uuid": "A19AAB6C-11B4-35F8-B84B-FE24CF24D8A9",
+            "matrix": [-2.847,0,0,0,0,0,90,0,0,0.146823,0,0,-9.77296,0.041333,0,1],
+            "visible": true,
+            "material": "9D8A2545-F1EB-3251-B63F-BA16B4AD0604",
+            "castShadow": true,
+            "receiveShadow": true,
+            "geometry": "1FC4E198-6779-32A2-B9EA-CF1DA597E1E5"
+        },{
+            "type": "Mesh",
+            "name": "Sidewalk.001",
+            "uuid": "C330802E-9F50-38E8-8DA9-5B972D3EFABD",
+            "matrix": [-2.847,0,0,0,0,0,90,0,0,0.146823,0,0,9.73546,0.041333,0,1],
+            "visible": true,
+            "material": "9D8A2545-F1EB-3251-B63F-BA16B4AD0604",
+            "castShadow": true,
+            "receiveShadow": true,
+            "geometry": "E5903C10-6451-35B4-B06B-BB2DF5A5FD79"
+        },{
+            "type": "Mesh",
+            "name": "Street",
+            "uuid": "87C6BABB-5DD1-3DB0-95A4-1D802FC88ECD",
+            "matrix": [-7e-06,0,90,0,7.01289,0,1e-06,0,0,0.916575,0,0,-0.014843,0.012649,0.036138,1],
+            "visible": true,
+            "material": "109C8DEC-623D-3F38-8AFD-395BEC6741C8",
+            "castShadow": true,
+            "receiveShadow": true,
+            "geometry": "D45CC348-DADE-325C-A599-66EDBECE13ED"
+        }],
+        "uuid": "7C4E58D9-AC47-477B-97D4-1D3657872E66",
+        "matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]
+    },
+    "images": [{
+        "name": "city.jpg",
+        "url": "city.jpg",
+        "uuid": "665B2403-C570-36A2-9662-DF93B65B0180"
+    },{
+        "name": "asphalt.jpg",
+        "url": "asphalt.jpg",
+        "uuid": "E65149D7-9D88-3195-94EB-5C03B11E5E49"
+    },{
+        "name": "sidewalk.jpg",
+        "url": "sidewalk.jpg",
+        "uuid": "D5562A2E-8643-300D-A07B-51504698DB93"
+    }],
+    "geometries": [{
+        "type": "Geometry",
+        "materials": [{
+            "transparent": false,
+            "wireframe": false,
+            "shading": "lambert",
+            "DbgName": "Material.001",
+            "mapDiffuseWrap": ["RepeatWrapping","RepeatWrapping"],
+            "colorEmissive": [0.261,0.261,0.261],
+            "opacity": 1,
+            "DbgColor": 15658734,
+            "colorAmbient": [0.45,0.45,0.45],
+            "mapDiffuse": "asphalt.jpg",
+            "mapDiffuseAnisotropy": 1,
+            "depthTest": true,
+            "colorDiffuse": [0.45,0.45,0.45],
+            "DbgIndex": 0,
+            "depthWrite": true,
+            "blending": "NormalBlending",
+            "mapDiffuseRepeat": [1,1],
+            "visible": true
+        }],
+        "uuid": "D45CC348-DADE-325C-A599-66EDBECE13ED",
+        "data": {
+            "normals": [0,0,1],
+            "uvs": [[0,7.04209,0,-6.04209,1,-6.04209,1,7.04209]],
+            "faces": [43,0,1,3,2,0,0,1,2,3,0,0,0,0],
+            "metadata": {
+                "generator": "io_three",
+                "normals": 1,
+                "uvs": 1,
+                "faces": 1,
+                "materials": 1,
+                "vertices": 4,
+                "version": 3
+            },
+            "name": "PlaneGeometry.7",
+            "vertices": [-1,-1,0,1,-1,0,-1,1,0,1,1,0]
+        }
+    },{
+        "type": "Geometry",
+        "materials": [{
+            "transparent": false,
+            "wireframe": false,
+            "shading": "lambert",
+            "DbgName": "Material.002",
+            "mapDiffuseWrap": ["RepeatWrapping","RepeatWrapping"],
+            "colorEmissive": [0.422059,0.422059,0.422059],
+            "opacity": 1,
+            "DbgColor": 15658734,
+            "colorAmbient": [0.659467,0.659467,0.659467],
+            "mapDiffuse": "sidewalk.jpg",
+            "mapDiffuseAnisotropy": 1,
+            "depthTest": true,
+            "colorDiffuse": [0.659467,0.659467,0.659467],
+            "DbgIndex": 0,
+            "depthWrite": true,
+            "blending": "NormalBlending",
+            "mapDiffuseRepeat": [1,1],
+            "visible": true
+        }],
+        "uuid": "1FC4E198-6779-32A2-B9EA-CF1DA597E1E5",
+        "data": {
+            "normals": [-0.577349,0.577349,-0.577349,-0.577349,-0.577349,-0.577349,-0.577349,-0.577349,0.577349,-0.577349,0.577349,0.577349,0.577349,0.577349,0.577349,0.577349,0.577349,-0.577349,0.577349,-0.577349,0.577349,0.577349,-0.577349,-0.577349],
+            "uvs": [[0.14625,-0.552801,-0.552801,-0.552801,-0.552801,0.14625,0.14625,0.14625,0.14625,0.150474,-0.552801,0.150474,-0.552801,0.849526,0.14625,0.849526,0.849526,-0.552801,0.150474,-0.552801,0.150474,0.14625,0.849526,0.14625,0.849526,0.150474,0.150474,0.150474,0.150474,0.849526,0.849526,0.849526,0.14625,0.85375,-0.552801,0.85375,-0.552801,1.5528,0.14625,1.5528,29.7192,-0.238104,-28.7192,-0.238104,-28.7192,1.2381,29.7192,1.2381]],
+            "faces": [43,2,0,1,3,0,2,3,0,1,0,1,2,3,43,3,7,6,2,0,4,5,6,7,3,4,5,0,43,7,5,4,6,0,8,9,10,11,4,6,7,5,43,0,4,5,1,0,14,15,12,13,1,7,6,2,43,0,2,6,4,0,16,17,18,19,1,0,5,7,43,5,7,3,1,0,20,21,22,23,6,4,3,2],
+            "metadata": {
+                "generator": "io_three",
+                "normals": 8,
+                "uvs": 1,
+                "faces": 6,
+                "materials": 1,
+                "vertices": 8,
+                "version": 3
+            },
+            "name": "Cube.000Geometry.7",
+            "vertices": [-1,-1,-1,-1,-1,1,-1,1,-1,-1,1,1,1,-1,-1,1,-1,1,1,1,-1,1,1,1]
+        }
+    },{
+        "type": "Geometry",
+        "materials": [{
+            "transparent": false,
+            "wireframe": false,
+            "shading": "lambert",
+            "DbgName": "Material.002",
+            "mapDiffuseWrap": ["RepeatWrapping","RepeatWrapping"],
+            "colorEmissive": [0.422059,0.422059,0.422059],
+            "opacity": 1,
+            "DbgColor": 15658734,
+            "colorAmbient": [0.659467,0.659467,0.659467],
+            "mapDiffuse": "sidewalk.jpg",
+            "mapDiffuseAnisotropy": 1,
+            "depthTest": true,
+            "colorDiffuse": [0.659467,0.659467,0.659467],
+            "DbgIndex": 0,
+            "depthWrite": true,
+            "blending": "NormalBlending",
+            "mapDiffuseRepeat": [1,1],
+            "visible": true
+        }],
+        "uuid": "E5903C10-6451-35B4-B06B-BB2DF5A5FD79",
+        "data": {
+            "normals": [-0.577349,0.577349,-0.577349,-0.577349,-0.577349,-0.577349,-0.577349,-0.577349,0.577349,-0.577349,0.577349,0.577349,0.577349,0.577349,0.577349,0.577349,0.577349,-0.577349,0.577349,-0.577349,0.577349,0.577349,-0.577349,-0.577349],
+            "uvs": [[0.14625,-0.552801,-0.552801,-0.552801,-0.552801,0.14625,0.14625,0.14625,0.14625,0.150474,-0.552801,0.150474,-0.552801,0.849526,0.14625,0.849526,0.849526,-0.552801,0.150474,-0.552801,0.150474,0.14625,0.849526,0.14625,0.849526,0.150474,0.150474,0.150474,0.150474,0.849526,0.849526,0.849526,0.14625,0.85375,-0.552801,0.85375,-0.552801,1.5528,0.14625,1.5528,29.7192,-0.238104,-28.7192,-0.238104,-28.7192,1.2381,29.7192,1.2381]],
+            "faces": [43,2,0,1,3,0,2,3,0,1,0,1,2,3,43,3,7,6,2,0,4,5,6,7,3,4,5,0,43,7,5,4,6,0,8,9,10,11,4,6,7,5,43,0,4,5,1,0,14,15,12,13,1,7,6,2,43,0,2,6,4,0,16,17,18,19,1,0,5,7,43,5,7,3,1,0,20,21,22,23,6,4,3,2],
+            "metadata": {
+                "generator": "io_three",
+                "normals": 8,
+                "uvs": 1,
+                "faces": 6,
+                "materials": 1,
+                "vertices": 8,
+                "version": 3
+            },
+            "name": "Cube.002Geometry.7",
+            "vertices": [-1,-1,-1,-1,-1,1,-1,1,-1,-1,1,1,1,-1,-1,1,-1,1,1,1,-1,1,1,1]
+        }
+    },{
+        "type": "Geometry",
+        "materials": [{
+            "transparent": false,
+            "wireframe": false,
+            "shading": "phong",
+            "specularCoef": 50,
+            "DbgName": "Material.000",
+            "mapDiffuseWrap": ["RepeatWrapping","RepeatWrapping"],
+            "colorEmissive": [0,0,0],
+            "opacity": 1,
+            "DbgColor": 15658734,
+            "colorAmbient": [0.64,0.64,0.64],
+            "mapDiffuse": "city.jpg",
+            "mapDiffuseAnisotropy": 1,
+            "depthTest": true,
+            "colorDiffuse": [0.64,0.64,0.64],
+            "colorSpecular": [0.5,0.5,0.5],
+            "DbgIndex": 0,
+            "depthWrite": true,
+            "blending": "NormalBlending",
+            "mapDiffuseRepeat": [1,1],
+            "visible": true
+        }],
+        "uuid": "46B30E9C-2A36-3EE8-A775-3732195A5E18",
+        "data": {
+            "normals": [0,0,1],
+            "uvs": [[0.98792,0.989771,0.98792,0.010228,0.01208,0.010229,0.01208,0.989772]],
+            "faces": [43,0,1,3,2,0,0,1,2,3,0,0,0,0],
+            "metadata": {
+                "generator": "io_three",
+                "normals": 1,
+                "uvs": 1,
+                "faces": 1,
+                "materials": 1,
+                "vertices": 4,
+                "version": 3
+            },
+            "name": "Plane.002Geometry.7",
+            "vertices": [-0.799862,-1,0.036492,1.20014,-1,0.036492,-0.799862,1,0.036492,1.20014,1,0.036492]
+        }
+    },{
+        "type": "Geometry",
+        "materials": [{
+            "transparent": false,
+            "wireframe": false,
+            "shading": "phong",
+            "specularCoef": 50,
+            "DbgName": "Material.000",
+            "mapDiffuseWrap": ["RepeatWrapping","RepeatWrapping"],
+            "colorEmissive": [0,0,0],
+            "opacity": 1,
+            "DbgColor": 15658734,
+            "colorAmbient": [0.64,0.64,0.64],
+            "mapDiffuse": "city.jpg",
+            "mapDiffuseAnisotropy": 1,
+            "depthTest": true,
+            "colorDiffuse": [0.64,0.64,0.64],
+            "colorSpecular": [0.5,0.5,0.5],
+            "DbgIndex": 0,
+            "depthWrite": true,
+            "blending": "NormalBlending",
+            "mapDiffuseRepeat": [1,1],
+            "visible": true
+        }],
+        "uuid": "FADA8082-65ED-3361-AA7E-B8D060A1673B",
+        "data": {
+            "normals": [0,0,1],
+            "uvs": [[0.98792,0.989771,0.98792,0.010228,0.01208,0.010229,0.01208,0.989772]],
+            "faces": [43,0,1,3,2,0,0,1,2,3,0,0,0,0],
+            "metadata": {
+                "generator": "io_three",
+                "normals": 1,
+                "uvs": 1,
+                "faces": 1,
+                "materials": 1,
+                "vertices": 4,
+                "version": 3
+            },
+            "name": "Plane.003Geometry.7",
+            "vertices": [-0.799862,-1,0.036492,1.20014,-1,0.036492,-0.799862,1,0.036492,1.20014,1,0.036492]
+        }
+    }]
+}
