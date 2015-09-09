@@ -2,7 +2,7 @@ Sim.ObjectLoader = new THREE.ObjectLoader()
 
 Sim.JSONLoader =new THREE.JSONLoader()
 
-ASSET_PREFIX = '/assets/'
+ASSET_PREFIX = 'assets/'
 
 Sim.MODELS = {}
 
