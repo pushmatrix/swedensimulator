@@ -9,7 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <meta property="og:url"           content="http://swedensimulator.com" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Sweden Simulator 2015" />
+    <meta property="og:description"   content="Feel what it's like to be a Swede in this virtual reality Sweden simulator." />
+    <meta property="og:image"         content="http://localhost:8000/img/cover.jpg" />
+
     <title>Sweden Simulator 2015</title>
+    <link rel="icon"
+      type="image/png"
+      href="assets/favicon.png">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -86,6 +95,10 @@
                     </div>
                       <div class="col-sm-6 text-center">
                           <img class='cover' src="img/cover.jpg" alt="" />
+                          <br>
+                          <br>
+                          <div class="fb-share-button" data-href="http://swedensimulator.com/" data-layout="button"></div>
+                          <br><br>
                       </div>
                   </div>
               </div>
@@ -207,6 +220,15 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="website_js/creative.js"></script>
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=160312804174747";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 </body>
 
