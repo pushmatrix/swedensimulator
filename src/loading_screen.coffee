@@ -52,13 +52,12 @@ class Sim.LoadingScreen extends Sim.Game
     @scene.add(@container)
 
   loaded: ->
-    @loaded = true
-    #@menuButton.position.x = 0
+    @_loaded = true
     Sim.renderer.setClearColor(0xf0f0f0)
     @createTexts('Look down!')
 
   placeMenuButton: ->
     super
-    @menuButton.position.x = if @loaded then 0 else -1000000
+    @menuButton.position.x = if @_loaded then 0 else -1000000
 
   tick: ->
