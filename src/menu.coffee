@@ -16,6 +16,7 @@ class Sim.Menu extends Sim.Game
     'WaitGame'
     'VaskaGame'
     'MidsummerGame'
+    'WinterGame'
   ]
 
   constructor: ->
@@ -23,6 +24,7 @@ class Sim.Menu extends Sim.Game
 
     @scene.remove(@menuButton)
 
+    Sim.renderer.setClearColor(0xf0f0f0)
     @loadSkybox()
     hemiLight = new THREE.HemisphereLight(0xffffff, 0xffffff, 1)
     # hemiLight.color.setHSL(0.6, 1, 0.6)
