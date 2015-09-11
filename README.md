@@ -9,3 +9,7 @@ http://swedensimulator.com
 
 
 Note: This was thrown together for Nordic.js, and is a bit of a shitshow codewise. I may clean it up eventually because there are some parts that I really like.
+
+### Yo how does this work?
+
+All JavaScript and WebGL (using THREE.js). Isn't that crazy? And it runs on desktop/mobile, and with all VR headsets thanks to the WebVR boilerplate (http://borismus.github.io/webvr-boilerplate/)
