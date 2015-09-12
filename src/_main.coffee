@@ -51,9 +51,9 @@ class Sim
     return unless @currentGame
     delta = @clock.getDelta() * 1000
     @currentGame.controls.update()
-    @currentGame.tick(delta)
     @currentGame.placeMenuButton()
     @currentGame.checkForButtonPress()
+    @currentGame.tick(delta)
     THREE.AnimationHandler.update(delta)
     @vrManager.render(@currentGame.scene, @currentGame.camera, delta)
     @stats?.update()
